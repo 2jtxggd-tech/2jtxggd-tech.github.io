@@ -9,10 +9,12 @@ This public repository hosts GitHub Pages files used for App Store review and cu
 - Privacy Policy: https://2jtxggd-tech.github.io/privacy-policy.html
 - Support: https://2jtxggd-tech.github.io/support.html
 
-### NineClip (planned)
+### NineClip
 
-- Privacy Policy: https://2jtxggd-tech.github.io/nineclip/privacy-policy.html
-- Support: https://2jtxggd-tech.github.io/nineclip/support.html
+- Privacy Policy (Japanese): https://2jtxggd-tech.github.io/nineclip/privacy-policy.html
+- Support (Japanese): https://2jtxggd-tech.github.io/nineclip/support.html
+- Privacy Policy (English): https://2jtxggd-tech.github.io/nineclip/en/privacy-policy.html
+- Support (English): https://2jtxggd-tech.github.io/nineclip/en/support.html
 
 ## Source of truth
 
@@ -29,6 +31,8 @@ NineClip mirrors:
 
 - `2jtxggd-tech/NineClip:docs/privacy-policy.html` -> `nineclip/privacy-policy.html`
 - `2jtxggd-tech/NineClip:docs/support.html` -> `nineclip/support.html`
+- `2jtxggd-tech/NineClip:docs/en/privacy-policy.html` -> `nineclip/en/privacy-policy.html`
+- `2jtxggd-tech/NineClip:docs/en/support.html` -> `nineclip/en/support.html`
 
 Canonical and mirror HTML must remain byte-identical.
 

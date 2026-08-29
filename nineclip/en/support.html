@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NineClip support page with contact information for bugs, questions, and feature requests.">
+  <title>NineClip Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #17202a;
+      --muted: #5f6c78;
+      --line: #d9e2ec;
+      --accent: #155bd5;
+      --soft: #f5f8fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
+      line-height: 1.75;
+    }
+    .wrap {
+      width: min(880px, 100%);
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    header {
+      padding: 28px 0 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    a { color: var(--accent); }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(1.9rem, 6vw, 2.8rem);
+      line-height: 1.2;
+    }
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 1.28rem;
+      line-height: 1.35;
+    }
+    p { margin: 0 0 14px; }
+    ul { padding-left: 1.3rem; }
+    .lead { color: var(--muted); }
+    .box {
+      margin: 18px 0;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+    }
+    .mail {
+      overflow-wrap: anywhere;
+      font-weight: 700;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 0.92rem;
+    }
+    @media (max-width: 640px) {
+      .wrap { padding: 24px 16px 40px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>NineClip Support</h1>
+      <p class="lead">For bugs, questions, or feature requests about NineClip, please contact us by email.</p>
+    </header>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>This support address is shared by multiple apps, including NineClip. Please include “NineClip” in the subject line or message.</p>
+      <div class="box">
+        <p>Support email:</p>
+        <p class="mail"><a href="mailto:utapps.support@gmail.com">utapps.support@gmail.com</a></p>
+      </div>
+      <p>Please include the following information, if available:</p>
+      <ul>
+        <li>Your macOS version</li>
+        <li>Your NineClip version and build number</li>
+        <li>What you expected and what actually happened</li>
+        <li>Steps to reproduce the issue</li>
+      </ul>
+      <p>You do not need to send the content of your saved snippets, personal information, or confidential information. If an example is needed, redact the content or replace it with sample text.</p>
+    </section>
+
+    <section aria-labelledby="about">
+      <h2 id="about">About NineClip</h2>
+      <p>NineClip is a snippet app that lets you retrieve frequently used text from the Mac menu bar and copy it to the clipboard.</p>
+      <p>NineClip is copy-only. It does not control other apps or paste text automatically. Your snippets, settings, and history of recently used items are stored on your Mac.</p>
+    </section>
+
+    <section aria-labelledby="privacy">
+      <h2 id="privacy">Privacy</h2>
+      <p>For details about how NineClip handles data, please see the Privacy Policy.</p>
+      <p><a href="privacy-policy.html">NineClip Privacy Policy</a></p>
+    </section>
+
+    <footer>
+      <p><a href="privacy-policy.html">Privacy Policy</a></p>
+      <p>&copy; 2026 Takuma Uehara</p>
+    </footer>
+  </main>
+</body>
+</html>
